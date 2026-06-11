@@ -1,16 +1,19 @@
 #include "headers/headers.h"
 
+
+
+
 class physics
 {
     public:
-    void init(Vector2* player_position,Texture2D cubicmap)
+    void add_level_collision(level level)
+    {
+        // add the level collision
+    }
+    void add_object_collision(game_object object)
     {
         
     }
-    void update(float delta_time)
-    {
-        // update the physics
-    }
+
     private:
-    
 };

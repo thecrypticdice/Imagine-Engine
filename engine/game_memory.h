@@ -3,21 +3,25 @@
 class game_memory
 {
     public:
-    void add_level(const level& new_level)
+    void add_level(level new_level)
     {
         m_levels.push_back(new_level);
     }
-    void add_sprite_2d(const sprite_2d& new_sprite)
+    void add_sprite_2d(sprite_2d new_sprite)
     {
         m_sprites_2d.push_back(new_sprite);
     }
-    void add_sprite_3d(const sprite_3d& new_sprite)
+    void add_sprite_3d(sprite_3d new_sprite)
     {
         m_sprites_3d.push_back(new_sprite);
     }
-    void add_camera(const 3D_camera& new_camera)
+    void add_player(player new_player)
     {
-        m_cameras.push_back(new_camera);
+        m_player = new_player;
+    }
+    player get_player()
+    {
+        return m_player;
     }
     level get_level(int index)
     {
@@ -62,5 +66,5 @@ class game_memory
     std::vector<level> m_levels;
     std::vector<sprite_2d> m_sprites_2d;
     std::vector<sprite_3d> m_sprites_3d;
-    fps_player m_player;
+    player m_player;
 };
