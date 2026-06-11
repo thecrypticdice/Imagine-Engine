@@ -1,6 +1,0 @@
-# This is a generated file and its contents are an internal implementation detail.
-# The update step will be re-executed if anything in this file changes.
-# No other meaning or use of this file is supported.
-
-command=/usr/bin/patch;-p1;<;/mnt/151023c1-1726-4bc6-a47d-e17130eb28f2/c++ games/imagine engine/3rdParty/tracy/cmake/imgui-emscripten.patch;&&;/usr/bin/patch;-p1;<;/mnt/151023c1-1726-4bc6-a47d-e17130eb28f2/c++ games/imagine engine/3rdParty/tracy/cmake/imgui-loader.patch
-work_dir=/mnt/151023c1-1726-4bc6-a47d-e17130eb28f2/c++ games/imagine engine/build/3rdParty/tracy/profiler/.cpm-cache/imgui/91accc144fa956b772432ed942ca36d712a0f767
