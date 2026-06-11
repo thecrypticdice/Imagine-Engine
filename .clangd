@@ -1,0 +1,9 @@
+CompileFlags:
+  Add:
+    - -std=c++20
+    - -I3rdParty/raylib/src/
+    - -I3rdParty/raygui/src/
+    - -Iengine/
+    - -Ieditor/
+    - -Iheaders/
+    - -I.

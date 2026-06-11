@@ -1,0 +1,3 @@
+include("/mnt/151023c1-1726-4bc6-a47d-e17130eb28f2/c++ games/imagine engine/3rdParty/tracy/cmake/CPM.cmake")
+CPMAddPackage("NAME;ImGui;GITHUB_REPOSITORY;ocornut/imgui;GIT_TAG;v1.92.8-docking;DOWNLOAD_ONLY;TRUE;PATCHES;/mnt/151023c1-1726-4bc6-a47d-e17130eb28f2/c++ games/imagine engine/3rdParty/tracy/cmake/imgui-emscripten.patch;/mnt/151023c1-1726-4bc6-a47d-e17130eb28f2/c++ games/imagine engine/3rdParty/tracy/cmake/imgui-loader.patch")
+set(ImGui_FOUND TRUE)
